@@ -3,6 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+  <div class="container">
+    <button class="btn btn-primary">Primary</button>
+  </div>
   <router-view />
 </template>
 
