@@ -1,4 +1,9 @@
+.navbar {
+    list-style: none;
+  }
+
 .imagesContainer{
+    margin-top: 50px;
     display: grid;
     float: left;
     left: 0;
