@@ -10,6 +10,18 @@
 
 ### Cuidado y preservación de especies marinas
 
+### Descripción de la página web
+
+ ```mermaid
+classDiagram
+HomePage --|> Información
+HomePage --|> Acuamigos
+Acuamigos : SeleccionaAmigo
+Información : AprendeMas
+Información : Consejos
+Información : Videos
+```
+
 
 ## Project setup
 ```
