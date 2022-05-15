@@ -10,10 +10,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body {
-            background-image: url('./src/assets/images/OceanWallpaper.jpg');
+            background-color: rgb(174, 205, 251);
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: cover;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
 
         @media screen and (max-width: 800px) {
@@ -44,10 +51,10 @@
                 <a class="nav-link" href="#">Inicio</a><span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Acuamigos</a>
+                <a class="nav-link" href="./acua.html">Acuamigos</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Información</a>
+                <a class="nav-link" href="./info.html">Información</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Donaciones</a>
@@ -63,7 +70,13 @@
 
     <div class="homeContainer">        
         <div class="item" style="background-image: url(./src/assets/images/homeImage1.png);"></div>
-        <div class="item"></div>
+        <div class="item" style="background-image: url(./src/assets/images/OceanWallpaper.jpg);">
+            <div class="center">
+                <h5>Si quieres cuidar a tu amigo marino da click</h5><a href="./acua.html" class="btn btn-info" role="button">Aquí</a>
+                <br>
+                <h5>Si quieres saber cómo ayudar a las especies marinas da click</h5><a href="./info.html" class="btn btn-info" role="button">Aquí</a>
+            </div>
+        </div>
         <div class="item" style="background-image: url(./src/assets/images/homeImage2.png);"></div>
     </div>
 
