@@ -62,6 +62,7 @@
 </template>
 <script>
 export default {
+  title: "About",
   methods: {
     requirebackgroundImage(image) {
       console.log(image);
