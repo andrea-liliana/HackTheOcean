@@ -1,0 +1,173 @@
+.imagesContainer{
+    display: grid;
+    float: left;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    padding: 30px 30px 30px 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "animal1 animal animal animal" 
+    "animal2 animal animal animal" 
+    "animal3 animal animal animal" 
+    "animal4 animal5 animal6 animal7"
+}
+
+.animal1{
+    grid-area: animal1;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal2{
+    grid-area: animal2;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal3{
+    grid-area: animal3;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal4{
+    grid-area: animal4;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal5{
+    grid-area: animal5;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal6{
+    grid-area: animal6;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal7{
+    grid-area: animal7;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.animal{
+    grid-area: animal;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.notesContainer{
+    position: relative;
+    display: grid;
+    right: 0;
+    top: 13%;
+    height: 100%;
+    width: 50%;
+    padding: 30px 30px 30px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 33vh 33vh 33vh;
+    grid-gap: 10px; 
+}
+
+.note {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: #bbb;
+}
+  
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.videosContainer{
+    position: absolute;
+    float: right;
+    left: 40%;
+    width: 60%;
+    height: 40%;
+    top: 60%;
+    bottom: 100%;
+    padding: 30px 30px 30px 30px;
+
+}
