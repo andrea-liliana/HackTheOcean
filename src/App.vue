@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <the-header></the-header>
-  </div>
   <div id="nav">
+    <the-header></the-header>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
@@ -31,14 +29,5 @@ export default {
 
 #nav {
   padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

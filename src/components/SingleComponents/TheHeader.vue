@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+  <nav
+    class="nav navbar fixed-top navbar-light"
+    style="background-color: #e3f2fd"
+  >
     <a class="navbar-brand" href="#">Stone Free</a>
     <div class="navbar" id="navbar">
       <li class="nav-item">
