@@ -10,7 +10,7 @@
 
 ### Cuidado y preservación de especies marinas
 
-### Descripción de la página web
+### Diagrama de la página web
 
  ```mermaid
 classDiagram
