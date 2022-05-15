@@ -1,0 +1,66 @@
+
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #111;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-productos{
+    
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-productos .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-productos .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-productos .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container-productos .card h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-productos .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-productos .card a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
