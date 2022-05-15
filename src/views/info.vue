@@ -1,20 +1,38 @@
 <template>
-  <section>
+  <section class="animalsContainerSection">
     <div class="imagesContainer">
-      <div class="animal" :style="requirebackgroundImage('ocean.jpg')"></div>
+      <div
+        class="animal"
+        style="background-image: url('@assets/images/ocean.jpg')"
+      ></div>
       <div
         class="animal1"
-        :style="requirebackgroundImage('seaHorse.jpg')"
+        style="background-image: url(@assets/images/seaHorse.jpg)"
       ></div>
-      <div class="animal2" :style="requirebackgroundImage('seaWolf.jpg')"></div>
-      <div class="animal3" :style="requirebackgroundImage('whale.jpg')"></div>
-      <div class="animal4" :style="requirebackgroundImage('dolphin.jpg')"></div>
+      <div
+        class="animal2"
+        style="background-image: url(@assets/images/seaWolf.jpg)"
+      ></div>
+      <div
+        class="animal3"
+        style="background-image: url(@assets/images/whale.jpg)"
+      ></div>
+      <div
+        class="animal4"
+        style="background-image: url(@assets/images/dolphin.jpg)"
+      ></div>
       <div
         class="animal5"
-        :style="requirebackgroundImage('vaquitaPorpoise.jpg')"
+        style="background-image: url(@assets/images/vaquitaPorpoise.jpg)"
       ></div>
-      <div class="animal6" :style="requirebackgroundImage('turtle.jpg')"></div>
-      <div class="animal7" :style="requirebackgroundImage('fish.jpg')"></div>
+      <div
+        class="animal6"
+        style="background-image: url(@assets/images/turtle.jpg)"
+      ></div>
+      <div
+        class="animal7"
+        style="background-image: url('~assets/images/fish.jpg')"
+      ></div>
     </div>
     <div class="notesContainer">
       <div class="note">
@@ -22,7 +40,7 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="@/assets/images/turtleBag.jpg"
+                :src="require(`@/assets/images/turtleBag.jpg`)"
                 alt="Tortuga"
                 style="width: 200px; height: 200px"
               />
@@ -39,7 +57,7 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="@/assets/images/seaHorseStick.jpg"
+                src="@assets/images/seaHorseStick.jpg"
                 alt="CaballitoMar"
                 style="width: 200px; height: 200px"
               />
@@ -63,6 +81,7 @@
             </div>
             <div class="flip-card-back">
               <br /><br />
+              @/assets/images/crabPlastics.jpg
               <h3>Viaja por el mar con responsabilidad</h3>
             </div>
           </div>
@@ -73,7 +92,7 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="@/assets/images/corals.jpg"
+                src="@assets/images/corals.jpg"
                 alt="Corales"
                 style="width: 200px; height: 200px"
               />
@@ -90,7 +109,7 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="@/assets/images/beach.jpg"
+                src="@assets/images/beach.jpg"
                 alt="Playa"
                 style="width: 200px; height: 200px"
               />
@@ -107,7 +126,7 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="@/assets/images/seaStar.jpg"
+                src="@assets/images/seaStar.jpg"
                 alt="EstrellaMar"
                 style="width: 200px; height: 200px"
               />
@@ -123,17 +142,10 @@
   </section>
 </template>
 <script>
-export default {
-  methods: {
-    requirebackgroundImage(image) {
-      const url = require(`@/assets/images/${image}`);
-      return `background-image: url(${url})`;
-    },
-  },
-};
+export default {};
 </script>
 <style>
-body {
+.animalsContainerSection {
   background-color: rgb(174, 205, 251);
   background-repeat: no-repeat;
   background-attachment: fixed;
