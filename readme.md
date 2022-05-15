@@ -16,10 +16,10 @@
 classDiagram
 HomePage --|> Información
 HomePage --|> Acuamigos
+Información --|> AprendeMas
+Información --|> Consejos
+Información --|> Videos
 Acuamigos : SeleccionaAmigo
-Información : AprendeMas
-Información : Consejos
-Información : Videos
 ```
 
 
