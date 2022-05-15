@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/turtle-icon/turtle-icon-22.jpg" />
+    <link rel="stylesheet" href="./src/assets/styles/styleSheet.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('./src/assets/images/OceanWallpaper.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+          
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+               max-width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-light" style="background-color: #e3f2fd;">
+        
+        <a class="navbar-brand" href="#">Stone Free</a>
+        <div class="navbar" id="navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a><span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Acuamigos</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Información</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Donaciones</a>
+            </li>
+        </div>
+        
+    </nav>
+
+
+    <div class="titleBox1">
+        <h1>Acuamigos</h1>
+    </div>
+
+    <div class="homeContainer">        
+        <div class="item" style="background-image: url(./src/assets/images/homeImage1.png);"></div>
+        <div class="item"></div>
+        <div class="item" style="background-image: url(./src/assets/images/homeImage2.png);"></div>
+    </div>
+
+</body>
