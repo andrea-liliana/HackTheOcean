@@ -75,6 +75,11 @@ Acuamigos : +Genero()
 
 ![CaballitoMar](https://user-images.githubusercontent.com/42507973/168591727-02b43f48-2fe4-478d-9ea0-683a7ec160b7.png)
 
+#### Para la pestaña de acuamigos, la idea original era crear un inicio de sesión y una página tipo tamagochi para que el niño pudiera sentir una cercanía con una especia marina, se hizo la prueba de inicio de sesión sin embargo por falta de tiempo no se puedo incluir en el resultado final, este es nuetro diseño original:
+
+![Amigo](https://user-images.githubusercontent.com/42507973/168595025-203d7441-f8ad-40e2-b6b5-fb05c8183d56.png)
+
+
 ## Project setup
 ```
 npm install
