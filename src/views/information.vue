@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="informationsections">
     <div class="titleBox1">
       <h1>Aprende más sobre algunos animales en peligro de extinción</h1>
     </div>
@@ -22,7 +22,6 @@
     <div class="titleBox">
       <h1>Algunos consejos para cuidarlos son...</h1>
     </div>
-
     <div class="notesContainer">
       <div class="note" v-for="(note, index) in notes" :key="index">
         <div class="flip-card">
@@ -128,8 +127,8 @@ export default {
   },
 };
 </script>
-<style>
-body {
+<style scoped>
+#app {
   background-color: rgb(174, 205, 251);
   background-repeat: no-repeat;
   background-attachment: fixed;

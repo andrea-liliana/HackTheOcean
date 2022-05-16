@@ -3,21 +3,21 @@
     class="nav navbar fixed-top navbar-light"
     style="background-color: #e3f2fd"
   >
-    <a class="navbar-brand" href="#">Stone Free</a>
+    <router-link to="/" class="navbar-brand">Stone Free</router-link>
     <div class="navbar" id="navbar">
       <li class="nav-item">
-        <a class="nav-link" href="#">Inicio</a>
+        <router-link to="/" class="nav-link">Inicio</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Acuamigos</a>
+        <router-link to="/acuamigos" class="nav-link">Acuamigos</router-link>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#"
-          >Información<span class="sr-only">(current)</span></a
+        <router-link to="/informacion" class="nav-link"
+          >Información</router-link
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Donaciones</a>
+        <router-link to="/about" class="nav-link">Donaciones</router-link>
       </li>
     </div>
   </nav>

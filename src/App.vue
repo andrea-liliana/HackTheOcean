@@ -1,19 +1,17 @@
 <template>
   <div id="nav">
     <the-header></the-header>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <div class="container">
-    <button class="btn btn-primary">Primary</button>
   </div>
   <router-view />
+  <the-footer></the-footer>
 </template>
 <script>
+import TheFooter from "./components/SingleComponents/TheFooter.vue";
 import TheHeader from "./components/SingleComponents/TheHeader.vue";
 export default {
   components: {
     TheHeader,
+    TheFooter,
   },
 };
 </script>
